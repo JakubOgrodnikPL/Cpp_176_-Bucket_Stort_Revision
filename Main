@@ -1,0 +1,8 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+void bucketSort(float arr[], int n)
+{
+    vector<float> b[n];
